@@ -1,0 +1,72 @@
+.nav-header {
+    width: 100% !important;
+    height: auto;
+    background: white;
+}
+
+.h-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px 0px 1px 1px gray;
+}
+
+.h-button-container {
+    margin: 5px;
+}
+
+.h-button-container>button {
+    border: none;
+    margin: 5px;
+    background: transparent !important;
+    color: rgba(0, 0, 0, 0.6) !important;
+    font-weight: 600;
+    float: right;
+    cursor: pointer;
+    transition: all ease-in-out 200ms;
+}
+
+.h-button-container button:hover {
+    border: none;
+    margin: 5px;
+    margin-left: 50px;
+    background: transparent !important;
+    color: rgba(57, 167, 14, 0.6) !important;
+    font-weight: 600;
+    float: right;
+    cursor: pointer;
+}
+
+.h-button-container>button>a {
+    text-decoration: none;   
+    color: rgba(0, 0, 0, 0.6) !important;
+    transition: all ease-in-out 200ms;
+}
+.h-button-container>button>a:hover {
+    text-decoration: none;   
+    color: rgba(57, 167, 14, 0.6) !important;
+}
+
+.instagram {
+    width: 50px;
+    height: auto;
+    float: right;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+.rows-container {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    color: rgb(98, 240, 42) !important;
+}
+
+small {
+    font-weight: 300 !important;
+    color:rgba(0, 0, 0, 0.5);
+}
