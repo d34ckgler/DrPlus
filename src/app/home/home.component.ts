@@ -1,4 +1,4 @@
-import { Component, ViewChild } from '@angular/core';
+import { Component } from '@angular/core';
 import { NgImageSliderComponent } from 'ng-image-slider';
 
 @Component({
@@ -10,8 +10,8 @@ export class HomeComponent {
   // @ViewChild('nav') slider: NgImageSliderComponent;
   imageObject: Array<object> = [{
     image: 'https://drplus24h.com/wp-content/uploads/2022/09/4_20220913_134250_0003-_1_.webp' // Youtube url
-    ,thumbImage: 'https://drplus24h.com/wp-content/uploads/2022/09/4_20220913_134250_0003-_1_.webp' // Youtube url
-    ,alt: 'g'
+    , thumbImage: 'https://drplus24h.com/wp-content/uploads/2022/09/4_20220913_134250_0003-_1_.webp' // Youtube url
+    , alt: 'g'
   },
   {
     video: 'assets/video/movie.mp4', // MP4 Video url

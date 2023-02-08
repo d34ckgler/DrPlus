@@ -1,23 +1,26 @@
-<div class="nav-header">
-    <div class="h-container">
-        <div class="rows-container">
-            <span>+58 (424)-4078690</span>
-            <small>info@drplus24h.com</small>
+<div class="wrapper" style="position: absolute;">
+    <div class="nav-header">
+        <div class="h-container">
+            <div class="rows-container">
+                <span>+58 (424)-4078690</span>
+                <small>info@drplus24h.com</small>
+            </div>
+            <img class="logo"
+                src="https://drplus24h.com/wp-content/uploads/brizy/imgs/Logo-Dr.Plus_-156x77x0x0x156x77x1660687853.png"
+                alt="drplus24h" />
+
+            <img class="instagram"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png"
+                alt="drplus24h" srcset="">
         </div>
-        <img class="logo"
-            src="https://drplus24h.com/wp-content/uploads/brizy/imgs/Logo-Dr.Plus_-156x77x0x0x156x77x1660687853.png"
-            alt="drplus24h" />
-
-        <img class="instagram"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png"
-            alt="drplus24h" srcset="">
+        <div class="h-button-container">
+            <button><a routerLink="/homes">Inicio</a></button>
+            <button>Servicios</button>
+            <button>Testimonios</button>
+            <button>Contacto</button>
+        </div>
     </div>
-    <div class="h-button-container">
-        <button><a routerLink="/homes">Inicio</a></button>
-        <button>Servicios</button>
-        <button>Testimonios</button>
-        <button>Contacto</button>
-    </div>
-
-    <ng-image-slider [images]="imageObject" #nav></ng-image-slider>
+    <section style="overflow-y: scroll;">
+        <app-slider-carrousel></app-slider-carrousel>
+    </section>
 </div>
